@@ -1,0 +1,21 @@
+@font-face {
+    font-family: primaryFont;
+    src: url("../fonts/Nunito-VariableFont_wght.ttf") format('truetype');
+}
+
+
+@font-face {
+    font-family: displayFont;
+    src: url("../fonts/AdigianaExtreme.ttf") format('truetype');
+}
+
+// .root {
+//     -fx-font-family: displayFont; 
+// }
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  /*font-family: "Adigiana Extreme";*/
+  -fx-font-family: "Montserrat", sans-serif;
+}
