@@ -1,0 +1,135 @@
+.signUp__container{
+    -fx-background-color:$primary-extra-light;
+}
+
+
+.left{
+    // -fx-background-color:red;
+    // -fx-background-radius: 100px;
+    // -fx-border-radius: 100px;
+    -fx-background-image: url('../img/signUpBG.png');
+    -fx-background-repeat: no-repeat;
+}
+
+.signUp__title{
+    -fx-font-size: 40px;
+    -fx-font-family: primaryFont;
+    -fx-font-weight: 800;
+    -fx-fill: $primary-light;
+}
+
+.signUp__from__container{
+    -fx-spacing: 20px;
+}
+
+.SignUp__input__group{
+    -fx-spacing: 5px;
+}
+
+.SignUp__input__label{
+    -fx-font-size: 12px;
+    -fx-font-weight: 600;
+    -fx-text-fill: $primary;
+}
+
+
+.SignUp__input{
+    -fx-background-image: url("../img/fullnameIcon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;
+    -fx-background-size: 18px 14px;
+    // -fx-padding: 5px 5px 5px 25px;
+
+    -fx-pref-height: 40px;
+    -fx-background-color:rgba(151, 209, 88, 0.178);
+    -fx-alignment: CENTER-LEFT;
+    -fx-padding: 0 0 0 25px;
+    -fx-text-fill: $text-dark;
+    -fx-text-fill: $primary;
+    -fx-font-weight: 600;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: rgba(91, 168, 144, 0.51);
+
+    &--email{
+        -fx-background-image: url("../img/emailIcon.png");
+        -fx-background-size: 18px 13px;
+    }
+
+    &--tel{
+        -fx-background-image: url("../img/telIcon.png");
+        -fx-background-size: 18px 13px;
+    }
+
+    &--pass{
+        -fx-background-image: url("../img/passIcon.png");
+        -fx-background-size: 18px 13px;
+    }
+
+}
+
+.SignUp__btn{
+    -fx-font-size: 15px;
+    -fx-background-color:rgba(151, 209, 88, 0.178);
+    -fx-padding: 10px 20px;
+    -fx-text-fill: $primary;
+    -fx-font-weight: 800;
+    -fx-background-radius: 1000px;
+    -fx-border-radius: 1000px;
+    -fx-transition: all 2s ease;
+    -fx-cursor: hand;
+
+    &:hover{
+    -fx-background-color:$primary;
+    -fx-text-fill: $primary-extra-light;
+
+    }
+}
+
+.form__member{
+
+    -fx-text-fill: $primary;
+    -fx-font-weight: 600;
+
+
+    &__link{
+        -fx-text-fill: $primary;
+        -fx-font-weight: 800;
+    }
+}
+
+.logoutBtn{
+    -fx-background-color: #97D158;
+    -fx-background-radius: 1000px;
+    -fx-cursor: hand;
+    
+    &__text{
+        -fx-fill: $primary-extra-light;
+        -fx-font-weight: 800;
+        -fx-font-size: 17px;
+    }
+
+    &:hover{
+        -fx-background-color: $primary;
+    }
+}
+
+.google-btn{
+    -fx-background-color:rgba(151, 209, 88, 0.178);
+    -fx-background-radius: 1000px;
+    -fx-cursor: hand;
+
+    &__text{
+        -fx-fill: $primary;
+        -fx-font-weight: 800;
+        -fx-font-size: 17px;
+    }
+
+    &:hover{
+        -fx-background-color: rgba(25, 141, 35, 0.5);
+
+    }
+
+    &:hover &__text{
+        -fx-fill: $primary-extra-light;
+    }
+}

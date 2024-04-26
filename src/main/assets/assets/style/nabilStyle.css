@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@font-face {
+  font-family: primaryFont;
+  src: url("../fonts/Nunito-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: displayFont;
+  src: url("../fonts/AdigianaExtreme.ttf") format("truetype");
+}
+* {
+  /*font-family: "Adigiana Extreme";*/
+  -fx-font-family: "Montserrat", sans-serif;
+}
+
+.signUp__container {
+  -fx-background-color: #defee6;
+}
+
+.left {
+  -fx-background-image: url("../img/signUpBG.png");
+  -fx-background-repeat: no-repeat;
+}
+
+.signUp__title {
+  -fx-font-size: 40px;
+  -fx-font-family: primaryFont;
+  -fx-font-weight: 800;
+  -fx-fill: #97d158;
+}
+
+.signUp__from__container {
+  -fx-spacing: 20px;
+}
+
+.SignUp__input__group {
+  -fx-spacing: 5px;
+}
+
+.SignUp__input__label {
+  -fx-font-size: 12px;
+  -fx-font-weight: 600;
+  -fx-text-fill: #43882b;
+}
+
+.SignUp__input {
+  -fx-background-image: url("../img/fullnameIcon.png");
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: left center;
+  -fx-background-size: 18px 14px;
+  -fx-pref-height: 40px;
+  -fx-background-color: rgba(151, 209, 88, 0.178);
+  -fx-alignment: CENTER-LEFT;
+  -fx-padding: 0 0 0 25px;
+  -fx-text-fill: #10036a;
+  -fx-text-fill: #43882b;
+  -fx-font-weight: 600;
+  -fx-font-size: 14px;
+  -fx-prompt-text-fill: rgba(91, 168, 144, 0.51);
+}
+.SignUp__input--email {
+  -fx-background-image: url("../img/emailIcon.png");
+  -fx-background-size: 18px 13px;
+}
+.SignUp__input--tel {
+  -fx-background-image: url("../img/telIcon.png");
+  -fx-background-size: 18px 13px;
+}
+.SignUp__input--pass {
+  -fx-background-image: url("../img/passIcon.png");
+  -fx-background-size: 18px 13px;
+}
+
+.SignUp__btn {
+  -fx-font-size: 15px;
+  -fx-background-color: rgba(151, 209, 88, 0.178);
+  -fx-padding: 10px 20px;
+  -fx-text-fill: #43882b;
+  -fx-font-weight: 800;
+  -fx-background-radius: 1000px;
+  -fx-border-radius: 1000px;
+  -fx-transition: all 2s ease;
+  -fx-cursor: hand;
+}
+.SignUp__btn:hover {
+  -fx-background-color: #43882b;
+  -fx-text-fill: #defee6;
+}
+
+.form__member {
+  -fx-text-fill: #43882b;
+  -fx-font-weight: 600;
+}
+.form__member__link {
+  -fx-text-fill: #43882b;
+  -fx-font-weight: 800;
+}
+
+.logoutBtn {
+  -fx-background-color: #97d158;
+  -fx-background-radius: 1000px;
+  -fx-cursor: hand;
+}
+.logoutBtn__text {
+  -fx-fill: #defee6;
+  -fx-font-weight: 800;
+  -fx-font-size: 17px;
+}
+.logoutBtn:hover {
+  -fx-background-color: #43882b;
+}
+
+.google-btn {
+  -fx-background-color: rgba(151, 209, 88, 0.178);
+  -fx-background-radius: 1000px;
+  -fx-cursor: hand;
+}
+.google-btn__text {
+  -fx-fill: #43882b;
+  -fx-font-weight: 800;
+  -fx-font-size: 17px;
+}
+.google-btn:hover {
+  -fx-background-color: rgba(25, 141, 35, 0.5);
+}
+.google-btn:hover .google-btn__text {
+  -fx-fill: #defee6;
+}
+
+.dash__container-card {
+  -fx-background-color: #fff;
+  -fx-background-radius: 30px;
+  -fx-border-radius: 30px;
+}
+
+.user_list--title {
+  -fx-fill: #32594a;
+  -fx-font-size: 20px;
+  -fx-font-weight: 700;
+}
+
+.userTableHead {
+  -fx-background-color: #defee6;
+  -fx-background-radius: 35px 35px 0 0;
+  -fx-padding: 0 15px;
+}
+
+.userTableHeadTitle {
+  -fx-fill: #5ba890;
+  -fx-font-size: 13px;
+  -fx-font-weight: 700;
+}
+
+.user_listScrollPane {
+  -fx-background: rgba(251, 237, 237, 0.166);
+  -fx-background-color: transparent;
+}
+
+.userTableBody {
+  -fx-padding: 15px 10px;
+}
+
+.userItem {
+  -fx-background-color: #fff;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.09), 25, 0, 2, 3);
+  -fx-background-radius: 1000px;
+  -fx-padding: 10px 18px;
+}
+
+.userItem__name {
+  -fx-fill: #585856;
+  -fx-font-size: 14px;
+  -fx-font-weight: 700;
+}
+
+.userItem__field {
+  -fx-fill: #585856;
+  -fx-font-size: 13px;
+  -fx-font-weight: 600;
+}
+
+.userItem__field-active {
+  -fx-background-color: #03bf8a;
+  -fx-padding: 5px 15px;
+  -fx-background-radius: 1000px;
+}
+
+.userItem__field-unactive {
+  -fx-background-color: #ef2c53;
+  -fx-padding: 5px 15px;
+  -fx-background-radius: 1000px;
+}
+
+.userItem__field-text {
+  -fx-fill: #fff;
+  -fx-font-size: 13px;
+  -fx-font-weight: 700;
+}
+
+.userItem__btn {
+  -fx-padding: 10px;
+  -fx-background-radius: 1000px;
+  -fx-cursor: hand;
+}
+.userItem__btn:hover {
+  -fx-background-color: #defee6;
+}
+
+.updateUserModel {
+  -fx-background-color: rgba(0, 0, 0, 0.7);
+}
+
+.updateUserModel-card {
+  -fx-background-color: #fff;
+  -fx-background-radius: 30px;
+  -fx-border-radius: 30px;
+}
+
+.updateUserModel-card-title {
+  -fx-font-weight: 700;
+  -fx-font-size: 20px;
+}
+
+.updateUserModel-card-exitBtn {
+  -fx-background-color: #43882b;
+  -fx-background-radius: 50%;
+  -fx-border-radius: 50%;
+  -fx-cursor: hand;
+}
+
+.updateUserModel-card-exitBtn:hover {
+  -fx-background-color: #397425;
+}
+
+.updateUserModel-scrollPane {
+  -fx-background: #fff;
+  -fx-background-color: transparent;
+}
+
+.home__msg {
+  -fx-fill: #5ba890;
+  -fx-font-weight: 800;
+  -fx-font-size: 24px;
+}
+
+.home__msg__text {
+  -fx-fill: #10036a;
+  -fx-font-weight: 700;
+  -fx-font-size: 13px;
+}
+
+.profileContainer {
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.09), 25, 0, 2, 3);
+  -fx-background-color: #fff;
+  -fx-background-radius: 30px;
+  -fx-border-radius: 30px;
+}
+
+.profileImgBorder {
+  -fx-background-color: #defee6;
+  -fx-background-radius: 1000px;
+  -fx-border-radius: 1000px;
+}
+
+.profileTitle {
+  -fx-fill: #74da08;
+  -fx-font-weight: 700;
+  -fx-font-size: 20px;
+}
+
+.profileData {
+  -fx-fill: #10036a;
+  -fx-font-weight: 600;
+  -fx-font-size: 14px;
+}
+
+.changePass__btn {
+  -fx-font-size: 15px;
+  -fx-background-color: #defee6;
+  -fx-padding: 10px 20px;
+  -fx-text-fill: #43882b;
+  -fx-font-weight: 800;
+  -fx-background-radius: 1000px;
+  -fx-border-radius: 1000px;
+  -fx-transition: all 2s ease;
+  -fx-cursor: hand;
+}
+.changePass__btn:hover {
+  -fx-background-color: #97d158;
+  -fx-text-fill: #defee6;
+}
+
+.balance__card {
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.09), 25, 0, 2, 3);
+  -fx-background-color: rgba(222, 254, 230, 0.5);
+  -fx-background-radius: 30px;
+  -fx-border-radius: 30px;
+}
+.balance__card--2 {
+  -fx-background-color: rgba(255, 147, 111, 0.5);
+}
+.balance__card__title {
+  -fx-fill: #10036a;
+  -fx-font-weight: 700;
+  -fx-font-size: 17px;
+}
+.balance__card__points {
+  -fx-fill: #10036a;
+  -fx-fill: #32594a;
+  -fx-font-weight: 700;
+  -fx-font-size: 18px;
+}
+
+.profile__card {
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.09), 25, 0, 2, 3);
+  -fx-background-color: #fff;
+  -fx-background-radius: 30px;
+  -fx-border-radius: 30px;
+}
+.profile__card__name {
+  -fx-fill: #10036a;
+  -fx-font-weight: 700;
+  -fx-font-size: 15px;
+}
+.profile__card__name--2 {
+  -fx-font-weight: 500;
+  -fx-font-size: 12px;
+}
+.profile__card__name--span {
+  -fx-background-color: red;
+  -fx-background-radius: 30px;
+  -fx-border-radius: 30px;
+}
+.profile__card__title {
+  -fx-fill: #10036a;
+  -fx-fill: #32594a;
+  -fx-font-weight: 700;
+  -fx-font-size: 18px;
+}
+
+.donHisValue {
+  -fx-fill: #10036a;
+  -fx-fill: #32594a;
+  -fx-font-weight: 700;
+  -fx-font-size: 16px;
+}
+
+.fundItem {
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.09), 25, 0, 2, 3);
+  -fx-background-color: #fff;
+  -fx-background-radius: 30px;
+  -fx-border-radius: 30px;
+  -fx-padding: 10px;
+}
+.fundItem__title {
+  -fx-fill: #5ba890;
+  -fx-font-weight: 700;
+  -fx-font-size: 23px;
+}
+.fundItem__tag {
+  -fx-fill: #5ba890;
+  -fx-font-weight: 700;
+}
+.fundItem__tag--2 {
+  -fx-font-size: 16px;
+}
+.fundItem__btn {
+  -fx-background-color: rgba(151, 209, 88, 0.178);
+  -fx-padding: 8px 18;
+  -fx-text-fill: #43882b;
+  -fx-font-weight: 700;
+  -fx-background-radius: 1000px;
+  -fx-border-radius: 1000px;
+  -fx-transition: all 2s ease;
+  -fx-cursor: hand;
+  -fx-font-size: 8px;
+}
+.fundItem__btn:hover {
+  -fx-background-color: #43882b;
+  -fx-text-fill: #defee6;
+} /*# sourceMappingURL=nabilStyle.css.map */

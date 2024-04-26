@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="780.0" stylesheets="@../assets/login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controles.register">
+    <right>
+        <VBox prefWidth="332.0" styleClass="vbox_background_right" stylesheets="@../assets/login.css" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+            <children>
+                <HBox alignment="BOTTOM_CENTER" prefHeight="289.0" prefWidth="332.0">
+                    <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Tfanen !" textAlignment="CENTER" wrappingWidth="319.7367248535156">
+                            <font>
+                                <Font name="Harrington" size="26.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </HBox>
+                <HBox alignment="TOP_CENTER" prefHeight="330.0" prefWidth="332.0">
+                    <children>
+                        <TextField fx:id="Email" prefHeight="38.0" prefWidth="267.0" promptText="Email" style="-fx-background-radius: 50; -fx-border-radius: 50;">
+                            <font>
+                                <Font name="Harrington" size="14.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets top="40.0" />
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                </HBox>
+                <HBox alignment="BOTTOM_CENTER" prefHeight="274.0" prefWidth="332.0">
+                    <children>
+                        <TextField fx:id="Username" prefHeight="38.0" prefWidth="271.0" promptText="Username" style="-fx-background-radius: 50; -fx-border-radius: 50;">
+                            <font>
+                                <Font name="Harrington" size="14.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </TextField>
+                    </children>
+                </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="320.0" prefWidth="332.0">
+               <children>
+                  <TextField fx:id="Password" prefHeight="40.0" prefWidth="327.0" promptText="Password" style="-fx-background-radius: 50; -fx-border-radius: 50;">
+                     <font>
+                        <Font name="Harrington" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets top="40.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <HBox alignment="TOP_CENTER" prefHeight="330.0" prefWidth="332.0">
+                     <children>
+                        <TextField fx:id="CPassword" prefHeight="41.0" prefWidth="170.0" promptText="Confirm Password" style="-fx-background-radius: 50; -fx-border-radius: 50;">
+                           <font>
+                              <Font name="Harrington" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="40.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="BOTTOM_CENTER" prefHeight="309.0" prefWidth="332.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Register" prefHeight="38.0" prefWidth="204.0" style="-fx-background-radius: 50;" stylesheets="@../assets/login.css" text="Sign Up">
+                     <font>
+                        <Font name="Harrington" size="20.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="login_button" />
+                        <String fx:value="cursor_hand" />
+                     </styleClass>
+                  </Button>
+               </children>
+            </HBox>
+                <ImageView fitHeight="115.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../pivdev/LOGO-removebg-preview.png" />
+                    </image>
+                    <effect>
+                        <Bloom threshold="0.0" />
+                    </effect>
+                </ImageView>
+            </children></VBox>
+    </right>
+    <center>
+        <VBox prefHeight="450.0" prefWidth="448.0" styleClass="vbox_background_center" stylesheets="@../assets/login.css" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+            <children>
+                <HBox alignment="BOTTOM_LEFT" prefHeight="65.0" prefWidth="448.0">
+                    <children>
+                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="109.0" style="-fx-background-radius: 50;" stylesheets="@../assets/login.css" text="Sign Up">
+                            <font>
+                                <Font name="Harrington" size="20.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="80.0" top="14.0" />
+                            </HBox.margin>
+                            <styleClass>
+                                <String fx:value="signupMenu_button" />
+                                <String fx:value="cursor_hand" />
+                            </styleClass>
+                        </Button>
+                        <Button fx:id="SignInMenu" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#NavigateToLoginPage" prefHeight="37.0" prefWidth="102.0" style="-fx-background-radius: 50;" stylesheets="@../assets/login.css" text="Login">
+                            <font>
+                                <Font name="Harrington" size="20.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="80.0" top="14.0" />
+                            </HBox.margin>
+                            <styleClass>
+                                <String fx:value="login_button" />
+                                <String fx:value="cursor_hand" />
+                            </styleClass>
+                        </Button>
+                    </children>
+                </HBox>
+            </children></VBox>
+    </center>
+</BorderPane>

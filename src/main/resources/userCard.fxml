@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="259.0" prefWidth="191.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controles.UserCard">
+    <children>
+        <ImageView fx:id="userIMG" fitHeight="126.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true" />
+        <VBox prefHeight="200.0" prefWidth="100.0">
+            <children>
+                <Label fx:id="UserEmail" prefHeight="34.0" prefWidth="287.0" text="Label" />
+                <Label fx:id="UserName" prefHeight="35.0" prefWidth="286.0" text="Label" />
+            <HBox alignment="CENTER" prefHeight="30.0" prefWidth="210.0" spacing="20.0">
+               <children>
+                  <Label fx:id="userTitle" text="Label" />
+                  <Separator orientation="VERTICAL" prefHeight="20.0" prefWidth="6.0" />
+                  <Label fx:id="UserScore" text="Label" />
+               </children>
+            </HBox>
+                <HBox alignment="CENTER" prefHeight="34.0" prefWidth="210.0" spacing="10.0">
+                    <children>
+                        <Button fx:id="DeclineButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="54.0" style="-fx-background-radius: 50;" styleClass="login_button" stylesheets="@../assets/login.css" text="Ban" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+</VBox>

@@ -1,0 +1,269 @@
+.dash__container-card {
+    -fx-background-color: #fff;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+
+.user_list--title{
+    -fx-fill: #32594a;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    // -fx-padding-top: 1.6rem;
+}
+
+.userTableHead{
+    // -fx-background-color: #5ba890;
+    -fx-background-color: #defee6;
+    -fx-background-radius: 35px 35px 0 0;
+    -fx-padding: 0 15px;
+}
+
+.userTableHeadTitle{
+    -fx-fill: #5ba890;
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+}
+
+.user_listScrollPane{
+    -fx-background: rgba(251, 237, 237, 0.166);
+    -fx-background-color: transparent;
+}
+
+.userTableBody{
+    -fx-padding: 15px 10px;   
+}
+
+.userItem{
+    -fx-background-color: #fff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.09), 25, 0, 2, 3);
+    -fx-background-radius: 1000px;
+    -fx-padding: 10px 18px;   
+
+}
+
+.userItem__name{
+    -fx-fill: #585856;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+}
+.userItem__field{
+    -fx-fill: #585856;
+    -fx-font-size: 13px;
+    -fx-font-weight: 600;
+}
+
+.userItem__field-active{
+    -fx-background-color:#03bf8a;
+    -fx-padding: 5px 15px;   
+    -fx-background-radius:1000px;
+}
+
+.userItem__field-unactive{
+    -fx-background-color:#ef2c53;
+    -fx-padding: 5px 15px;   
+    -fx-background-radius:1000px;
+}
+
+.userItem__field-text{
+    -fx-fill: #fff;
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+}
+
+.userItem__btn{
+    -fx-padding: 10px;   
+    -fx-background-radius:1000px;
+    -fx-cursor:hand;
+
+    &:hover{
+    -fx-background-color:#defee6;        
+    }
+}
+
+.updateUserModel {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .updateUserModel-card {
+    -fx-background-color: #fff;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+  }
+  
+  .updateUserModel-card-title {
+    -fx-font-weight: 700;
+    -fx-font-size: 20px;
+  }
+  
+  .updateUserModel-card-exitBtn {
+    -fx-background-color: #43882b;
+    -fx-background-radius: 50%;
+    -fx-border-radius: 50%;
+    -fx-cursor: hand;
+  }
+  
+  .updateUserModel-card-exitBtn:hover {
+    -fx-background-color: #397425;
+  }
+
+  .updateUserModel-scrollPane {
+    -fx-background: #fff;
+    -fx-background-color: transparent;
+  }
+
+.home__msg{
+    -fx-fill: #5BA890;
+    -fx-font-weight: 800;
+    -fx-font-size:24px
+}
+
+.home__msg__text{
+    -fx-fill: #10036a;
+    -fx-font-weight: 700;
+    -fx-font-size:13px
+}
+
+.profileContainer{
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.09), 25, 0, 2, 3);
+    -fx-background-color: #fff;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+}
+
+.profileImgBorder{
+    -fx-background-color: #DEFEE6;
+    -fx-background-radius: 1000px;
+    -fx-border-radius: 1000px;
+}
+
+.profileTitle{
+    -fx-fill:#74da08;
+    -fx-font-weight: 700;
+    -fx-font-size:20px
+}
+
+.profileData{
+    -fx-fill:#10036A;
+    -fx-font-weight: 600;
+    -fx-font-size:14px
+}
+
+.changePass__btn{
+    -fx-font-size: 15px;
+    -fx-background-color:#DEFEE6;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: #43882B;
+    -fx-font-weight: 800;
+    -fx-background-radius: 1000px;
+    -fx-border-radius: 1000px;
+    -fx-transition: all 2s ease;
+    -fx-cursor: hand;
+
+    &:hover{
+    -fx-background-color:#97D158;
+    -fx-text-fill: #DEFEE6;
+    }
+}
+
+.balance__card{
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.09), 25, 0, 2, 3);
+    -fx-background-color: rgba(222, 254, 230, 0.5);
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+
+    &--2{
+        -fx-background-color: rgba(255, 147, 111, 0.5);
+    }
+    
+    &__title{
+        -fx-fill: #10036a;
+        -fx-font-weight: 700;
+        -fx-font-size:17px
+    }
+
+    &__points{
+        -fx-fill: #10036a;
+        -fx-fill: #32594A;
+        -fx-font-weight: 700;
+        -fx-font-size:18px
+    }
+}
+
+.profile__card{
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.09), 25, 0, 2, 3);
+    -fx-background-color: #fff;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+
+    &__name{
+        -fx-fill: #10036a;
+        -fx-font-weight: 700;
+        -fx-font-size:15px;
+
+        &--2{
+            -fx-font-weight: 500;
+            -fx-font-size:12px
+        }
+
+        &--span{
+            -fx-background-color: red;
+            -fx-background-radius: 30px;
+            -fx-border-radius: 30px;
+        }
+    }
+
+    &__title{
+        -fx-fill: #10036a;
+        -fx-fill: #32594A;
+        -fx-font-weight: 700;
+        -fx-font-size:18px;
+    }
+}
+
+.donHisValue{
+    -fx-fill: #10036a;
+    -fx-fill: #32594A;
+    -fx-font-weight: 700;
+    -fx-font-size:16px;
+}
+
+.fundItem{
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.09), 25, 0, 2, 3);
+    -fx-background-color: #fff;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-padding: 10px;
+
+    &__title{
+        -fx-fill: #5BA890;
+        -fx-font-weight: 700;
+        -fx-font-size:23px;
+    }
+
+    &__tag{
+        -fx-fill: #5BA890;
+        -fx-font-weight: 700;
+
+        &--2{
+            -fx-font-size:16px;
+        }
+    }
+
+    &__btn{
+        -fx-background-color:rgba(151, 209, 88, 0.178);
+        -fx-padding: 8px 18;
+        -fx-text-fill: $primary;
+        -fx-font-weight: 700;
+        -fx-background-radius: 1000px;
+        -fx-border-radius: 1000px;
+        -fx-transition: all 2s ease;
+        -fx-cursor: hand;
+        -fx-font-size: 8px;
+
+    
+        &:hover{
+            -fx-background-color:$primary;
+            -fx-text-fill: $primary-extra-light;
+        }
+    }
+}

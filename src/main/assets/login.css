@@ -1,0 +1,48 @@
+
+
+.vbox_background_right{
+    -fx-background-image:url("res_imgRR.jpeg");
+    -fx-background-position: -10%  10%;
+
+}
+
+.vbox_background_center{
+    -fx-background-image:url("res_imgLL.jpeg");
+    -fx-background-position: 50%;
+
+}
+
+.login_button{
+    -fx-background-color:#FF2500 ;
+
+    -fx-text-fill: black;
+
+}
+
+.loginMenu_button{
+    -fx-background-color: #ecad0b;
+    -fx-text-fill: black;
+}
+
+.signup_button{
+    -fx-background-color:#FF2500 ;
+
+    -fx-text-fill: black;
+}
+.signupMenu_button{
+    -fx-background-color:#ecad0b ;
+
+    -fx-text-fill: black;
+
+}
+.login_button:hover{
+    -fx-background-color:#ecad0b;
+}
+
+.signup_button:hover{
+    -fx-background-color:#ecad0b;
+}
+
+.cursor_hand{
+    -fx-cursor:hand;
+}
